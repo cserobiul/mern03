@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Comprehensive Guide to Using HTML Forms: All Elements Explained - Coding Blog</title>
+  <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+
+<body>
+  <header style="text-align: center;">
+    <div>
+        <table align="center">
+            <tr>
+                <td>
+                  <a href="index.html"><img src="logo.jpg" width="100"></a>
+                </td>
+                <td>
+                    <h2>Blog</h2>
+                </td>
+            </tr>
+        </table>             
+    </div>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<hr>
+
+  <main>
+
+    <article>
+      <header>
+        <h1>A Comprehensive Guide to Using HTML Forms: All Elements Explained</h1>
+        <div>
+          <span>By Jane Doe</span> | <span>September 3, 2024</span>
+        </div>
+      </header>
+      <p>HTML forms are an essential component of web development, allowing users to submit data to servers and interact
+        with web applications. Understanding how to use various form elements is crucial for creating effective and
+        user-friendly forms. In this guide, we’ll cover all the fundamental HTML form elements and how to use them
+        effectively.</p>
+
+      <h2>Form Elements Overview</h2>
+      <p>HTML forms can contain a variety of elements to collect user input. Here’s a rundown of the most commonly used
+        form elements:</p>
+
+      <ul>
+        <li><strong>Text Input:</strong> Allows users to enter text.</li>
+        <li><strong>Password Input:</strong> Conceals the text entered for sensitive information.</li>
+        <li><strong>Checkbox:</strong> Lets users select multiple options.</li>
+        <li><strong>Radio Button:</strong> Allows users to select a single option from a group.</li>
+        <li><strong>Submit Button:</strong> Submits the form data.</li>
+        <li><strong>Select Menu:</strong> Provides a dropdown list of options.</li>
+        <li><strong>Textarea:</strong> Enables multi-line text input.</li>
+        <li><strong>File Input:</strong> Lets users upload files.</li>
+        <li><strong>Hidden Input:</strong> Stores data that is not visible to users.</li>
+      </ul>
+
+      <h2>HTML Form Example</h2>
+      <p>Here’s a sample HTML form demonstrating the use of various form elements:</p>
+
+      <form action="/" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
+
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+
+          <label for="interests">Interests:</label>
+          <input type="checkbox" id="coding" name="interests" value="coding">
+          <label for="coding">Coding</label>
+          <input type="checkbox" id="reading" name="interests" value="reading">
+          <label for="reading">Reading</label><br><br>
+
+          <label for="country">City:</label>
+          <select id="country" name="country">
+            <option value="dhaka">Dhaka</option>
+            <option value="khulna">Khulna</option>
+            <option value="sylhet">Sylhet</option>
+            <option value="rajshahi">Rajshahi</option>
+          </select><br><br>
+
+          <label for="bio">Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+          <label for="file">Upload File:</label>
+          <input type="file" id="file" name="file"><br><br>
+
+          <input type="hidden" name="formType" value="registration">
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      <h2>Form Attributes</h2>
+      <p>Each form element has attributes that define its behavior:</p>
+      <ol>
+        <li><strong>action:</strong> Specifies the URL where the form data will be sent.</li>
+        <li><strong>method:</strong> Defines the HTTP method (GET or POST) used to submit the form.</li>
+        <li><strong>required:</strong> Makes a field mandatory for submission.</li>
+        <li><strong>placeholder:</strong> Provides a hint about the expected value in a text field.</li>
+      </ol>
+
+      <p>By mastering these HTML form elements and attributes, you can create powerful forms that enhance user
+        experience and facilitate data collection. Whether you’re building simple contact forms or complex data entry
+        forms, understanding these basics is essential for effective web development.</p>
+
+    </article>
+    <hr>
+    <nav>
+      <a href="blog1.html"  rel="prev" title="HTML Structure: Block and Inline Elements Made Simple">&laquo; Previous Post</a>
+      &nbsp; &nbsp; &nbsp;
+      <a href="blog3.html" rel="next" title="Top 10 CSS Tricks for Modern Web Design">Next Post &raquo;</a>
+    </nav>
+
+
+    <hr>
+    <aside>
+      <h3>About Author</h3>
+      <p>Hello my name is John Doe. I am the author of this coding blog site.</p>
+      <h3>Blog Categories</h3>
+      <a href="#">HTML</a></br>
+      <a href="#">CSS</a></br>
+      <a href="#">JavaScript</a></br>
+    </aside>
+  </main>
+
+  <footer>
+    <p style="text-align: center;">Copyright &copy; 2024 Coding Blog</p>
+  </footer>
+</body>
+
+</html>
