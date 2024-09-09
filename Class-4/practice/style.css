@@ -1,0 +1,83 @@
+/* 
+1. Universal Selector
+2. Tag selector
+3. Class Selector
+4. ID Selector 
+5. Attribute Selector
+*/
+
+/* Universal Selector */
+/* use by (*) */
+
+*{
+    color:red;
+}
+
+h1{
+    color:blue;
+}
+
+
+/* Tag Selector (tag name) */
+h2{
+    color:green;
+}
+
+/* Class Selector (.) */
+/* p{
+    color:purple;
+}
+p.highlight{
+    color:tomato;
+} */
+
+
+/* ID Selector (#) */
+#title{
+    color:orange;
+}
+#title-secondary{
+    color:teal;
+}
+h1.highlight{
+    color:pink;
+}
+
+
+/* Attribute Selector */
+a{
+    color:indigo;
+}
+a[href="https:google.com"]{
+    color:green;
+}
+
+a[href="https:facebook.com"]{
+    color:blue;
+}
+
+p{
+    color: blueviolet;
+}
+.bangla{
+    font-family: 'Teesta';
+}
+ 
+
+
+/* 
+Fonts
+1. Serif Fonts - title, newspaper
+2. Sans Serif
+3. Monospaced
+4. Handwriting
+5. Display
+*/
+
+@font-face {
+    font-family: 'Teesta';
+    src: url('fonts/LiChayanaTeestaUnicode.ttf');
+}
+
+
+
