@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'MustafaSaUnicodeRegular';
+    src: url('fonts/LiMustafaSaUnicodeRegular.ttf');
+}
+
+@font-face {
+    font-family: 'AlinurBanglabornoUnicode';
+    src: url('fonts/LiAlinurBanglabornoUnicode.ttf');
+}
+
+@font-face {
+    font-family: 'SabbirAshalota3Unicode';
+    src: url('fonts/LiSabbirAshalota3Unicode.ttf');
+}
+
+@font-face {
+    font-family: 'ShohidAbuSayedUnicode';
+    src: url('fonts/LiShohidAbuSayedUnicode.ttf');
+}
+
+@font-face {
+    font-family: 'AlinurSpandanUnicodeRegular';
+    src: url('fonts/LiAlinurSpandanUnicodeRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Charukola_Unicode-Ultra_Light';
+    src: url('fonts/Charukola_Unicode-Ultra_Light.ttf');
+}
+
+*{
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+}
+
+.bangla-font-title{
+    font-family: "Charukola_Unicode-Ultra_Light";
+    text-align: center;
+
+}
+
+.bangla-font-intro{
+    font-family: "MustafaSaUnicodeRegular";
+}
+
+.bangla-font-details{
+    font-family: "AlinurSpandanUnicodeRegular";
+}
+
+.bangla-font-ul{
+    font-family: "ShohidAbuSayedUnicode";
+}
+
+.bangla-font-ul li{
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.cta{
+    padding-top: 2rem;
+    text-align: center;
+   
+}
+
+.cta a{
+    font-family: "AlinurBanglabornoUnicode";
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 1rem;
+    border: 2px solid black;
+    color: white;
+}
+
+.footer{
+    padding-top: 1rem;
+    font-family: "SabbirAshalota3Unicode";
+    text-align: center;
+}
+
