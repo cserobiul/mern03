@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+  }
+
+.logo{
+    width: 223px;
+    height: 93.77px;
+    top: 19px;
+    left: 68px; 
+    position: relative;
+}
+
+
+.menu-bar {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.menu-bar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 68px;
+}
+
+.menu-bar ul li {
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+
+}
+.login{  
+    background: #54B8FF; 
+    padding: 2px 20px;
+    color: #fff;
+}
+
+
+.mt-50{
+    margin-top: 50px;;
+}
+
+.hero-area { 
+    padding: 3% 8%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+  }
+  
+  .hero-text {
+    margin-top: 50px;
+    width: 50%;
+    left: 0; 
+  }
+  
+  .sub-title {
+    font-size: 20px;
+    color: #2F2B71; 
+
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 30px;
+    
+  }
+  
+  .hero-title {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 81.55px;
+    color: #5F596E;
+
+  }
+  
+  .hero-text p.hero-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    line-height: 31.2px;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    width: 197px;
+    height: 56px;
+    top: 608px;
+    left: 114px; 
+    opacity: 0px;
+    color: #fff;
+    background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
+    border:none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .hero-button i{
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+
+  .hero-banner{
+    position: relative; 
+    width: 50%;
+    top: -60%;
+    right: 0px; 
+  }
+  
+  .hero-banner img {
+    position: absolute; 
+    width: 119%;
+  }
+
+  .shape1{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+  .shape2{
+    position: absolute;
+    top: 165px;
+    left: 640px;
+    z-index: -1;
+  }
+  .shape3{
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    z-index: -1;
+  }
+
+  .shape4{
+    position: absolute;
+    top: 200;
+    right: 0px;
+    z-index: -1;
+  }
+
+  
+  .shape5{
+    position: absolute; 
+    top: 480px;
+    right: 0;
+    z-index: -1;
+  }
+
+
+  .cal1{ 
+    position: absolute;
+    top: 200px;
+    left: -250px;
+    z-index: 10;
+  }
+
+  .cal2{ 
+    position: absolute;
+    top: 100px;
+    left: -170px;
+    z-index: 10;
+  }
+
+  .cal3{ 
+    position: absolute;
+    top: 0px;
+    left: -40px;
+    z-index: 10;
+  }
+
+  .cal4{ 
+    position: absolute;
+    top: 35px;
+    left: 160px;
+    z-index: 10;
+  }
+
+  .cal5{ 
+    position: absolute;
+    top: 190px;
+    right: -60px;
+    z-index: 10;
+  }
+
+  

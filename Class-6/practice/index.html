@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Possition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            height: 3000px;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            font-size: 5rem;
+            color: white;
+        }
+        .parent{
+            position: relative;
+            border: 3px solid black;
+            width: 900px;
+            height: 800px;
+            margin: 0 auto;
+        }
+        .child{
+            position: sticky;
+            color: blue;
+            top:0px;
+            font-size: 20px;
+        }
+        .box1{
+            background-color: red;
+            position: absolute;
+            /* position: fixed; */
+            /* opacity: 0; */
+            /* right: 0; */
+        }
+        .box2{
+            background-color: green;
+            width: 400px;
+            height: 400px;
+        }
+        .box3{
+            background-color: blue;
+        }
+
+        a {
+            background-color: tomato;
+            color: fff;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 15px 40px;
+            margin-top: 100px;
+            display: inline-block;
+        }
+
+        a i{
+            position: relative;
+            color: red;
+            font-size: 1.4rem;
+            left: 10px;
+            /* top:5px */
+            
+        }
+
+        p:nth-of-type(1){
+            background-color: tomato;
+            /* clear: both; */
+            overflow: auto; /* scroll / hidden */
+        }
+        p:nth-of-type(2){
+            background-color: teal;
+            clear: both;        /* clear both left and right */
+        }
+
+        img{
+            float: right;
+            /* background-color: brown; */
+        }
+
+        .clearfix{
+            clear: both;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- Positions in CSS     
+    
+    1. Absolute - normal document flow no 
+    2. Relative - normal document flow yes
+    3. Fixed  -  normal document flow no 
+    4. Relative + Absolute - normal document flow no
+    5. Sticky
+
+    -->
+
+    <!-- 
+    animate .js
+    wow.js
+    -->
+
+    <h1>CSS Position</h1>
+
+    <div class="parent">
+        <nav class="child">
+            <ul>
+                <li>Home</li>
+                <li>Absolute</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <img src="/favicon.ico" alt="  ">
+        <p>
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos fugit id quaerat harum, blanditiis magni numquam quisquam ducimus incidunt animi, fuga sit sequi voluptates odit, doloremque eius? Distinctio, odio?
+           Asperiores repudiandae maxime, eveniet dolore amet voluptatibus voluptates quod impedit molestiae officia, porro labore nemo? Debitis cum mollitia est architecto asperiores, repudiandae aspernatur nesciunt ipsam alias, velit, enim hic magnam!
+           Ab porro, facere, repellendus deserunt at hic ad voluptatibus sit fugiat, quae alias consequuntur cupiditate! Eius magnam sint, sequi, atque cumque tempora quis nihil in obcaecati porro exercitationem? Laudantium, expedita.
+        </p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa, inventore quisquam pariatur quibusdam omnis vitae similique id error? Quis, dolorem. Facere magnam corrupti necessitatibus, libero ipsa culpa quidem fugit.
+            Sunt dolorem nulla numquam, deserunt in aliquam ipsa deleniti sed ratione, aliquid quis asperiores! Placeat repellat consequuntur a dolorum. Nostrum magnam impedit, aut ab temporibus suscipit corrupti quidem. Nobis, minima.
+            Unde voluptate eum modi deleniti exercitationem illum autem! Sequi quo facilis temporibus quae porro nisi? Tenetur velit nulla beatae dolore perspiciatis aliquid vero, veritatis asperiores voluptatum magnam soluta deserunt earum!</p>
+    </section>
+
+    
+
+    <div class="parent">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+    </div>
+
+    <a href="#">
+        Google 
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+
+    
+</body>
+</html>
